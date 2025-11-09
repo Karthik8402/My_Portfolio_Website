@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/portfolio.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b127bb225c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>K</span>arthik.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Karthik</span> <br>Kumar from Salem</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------------About-------------------- -->
+    <div id="about">
+        <div class="about-container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me</h1>
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <p> I am an enthusiastic and dedicated fresher ready to embark on an exciting journey in the world of Software Developer or FrontEnd Developer or BackEnd Developer or FullStack Developer. I believe that curiosity and a thirst for knowledge are the driving forces behind personal and professional growth. As a fresher, I am eager to learn and explore new horizons within my chosen field. I find great joy in embracing challenges and pushing the boundaries of my abilities, always seeking opportunities to expand my skill set.</p><br>
+                    <p>Throughout my academic journey, I have acquired a solid foundation in [mention relevant subjects or areas of expertise]. These experiences have equipped me with a diverse set of skills, including [mention specific skills]. I am a quick learner, adaptable and possess a strong work ethic, which allows me to tackle projects with determination and attention to detail.</p><br>
+                    <p>Beyond my academic pursuits, I am passionate about [mention any relevant hobbies, interests, or extracurricular activities]. These activities have not only provided me with an outlet for creativity but have also honed my ability to work collaboratively, communicate effectively, and manage my time efficiently.</p><br>
+                    <p>As I embark on my professional journey, I am seeking opportunities to apply my skills, expand my knowledge, and make a positive impact. I am open to internships, entry-level positions, or any other opportunities that will allow me to learn and contribute to a dynamic and innovative environment.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <p class="tab-links"onclick="opentab('interest')">Interest</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Oops, Core Java</li>
+                            <li><span>Web Technology</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>SQL</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>B.Sc Computer in Vysya College, Salem.</li>
+                            <li><span>2019</span><br>HSC in Srii Jothi Hr Sec School, Salem.</li>
+                            <li><span>2017</span><br>SSLC in Srii Jothi Hr Sec School, Salem.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="interest">
+                        <ul>
+                            <li><span>2022</span><br>B.Sc Computer in Vysya College, Salem.</li>
+                            <li><span>2019</span><br>HSC in Srii Jothi Hr Sec School, Salem.</li>
+                            <li><span>2017</span><br>SSLC in Srii Jothi Hr Sec School, Salem.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------Project--------------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java</h2>
+                <h3>ATM Machine Project</h3>
+                <p class="project-details">Implemented a Java project using HashMap collection to store customernumber and pin number. Developed a user-friendly interface to access twoaccount types: Checking and Saving. Each account offers options to CheckBalance, Withdraw, Deposit, Go Back, or Exit. The account balance isdisplayed in a formatted manner as $00,000.00.</p>
+                <p class="project_details">The project code is available on GitHub at: <a class="URL" href="https://github.com/Karthik8402/ATM_Machine_Project" target="_blank">GitHub Repository</a></p>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Technology</h2>
+                <!--Web project-1-->
+                <h3>Parallax Website</h3>
+                <p class="project-details">Created and hosted a visually captivating parallax website. Utilized parallaxscrolling effects to deliver a unique and immersive user experience.Incorporated seamless transitions between sections to enhance thestorytelling aspect. Designed with a focus on desktop display.</p>
+                <p>Website URL: <a class="URL" href="http://parallax.unaux.com" target="_blank">parallax.unaux.com</a></p>
+                <!--Web project-2-->
+                <h3 class="second-project">Login Website</h3>
+                <p class="project-details">Crafted a vibrant and visually captivating login website with animatedelements, showcasing a unique and dynamic user interface. Employed aresponsive design approach to ensure optimal viewing across devices. The website's vibrant color scheme and engaging animations create animmersive login experience.</p>
+                <p>Website URL: <a class="URL" href="http://creativelogin.unaux.com" target="_blank">creativelogin.unaux.com</a></p>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>SQL</h2>
+                <p class="project-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime molestiae quos repellat, provident vitae neque. Dolore alias, impedit quaerat enim sed eveniet unde laudantium tenetur error delectus quis sunt?</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------Contact--------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>karthikumar8402@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9159447517</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/karthik_kumar_8402/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/karthik-k-53a78026a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div id="movable-box"><a href="images/Karthik Resume.pdf" class="btn" download>Download CV</a></div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input id="name-input-box" type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        let sidemeu = document.getElementById("sidemenu");
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxA3hd5f8kK5jehRTP_RVTnc6EXtk3b5XeGhM5_JqBnkWCM7E8MrBwH2JRZ-f7DAyxyEw/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        try {
+        const response = await fetch(scriptURL, { method: 'POST', body: new FormData(form) });
+        if (response.ok) {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function() {
+                msg.innerHTML = "";
+            }, 1000);
+            form.reset();
+        } else {
+            throw new Error('Error occurred while submitting the form');
+        }
+        } catch (error) {
+            console.error('Error!', error.message);
+        }
+        });
+      </script>
+</body>
+</html>
