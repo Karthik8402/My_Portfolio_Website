@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -164,4 +165,176 @@
         });
       </script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/portfolio.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b127bb225c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>K</span>arthik.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Karthik</span> <br>Kumar from Salem</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------------About-------------------- -->
+    <div id="about">
+        <button type=""></button>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut consectetur sunt ipsa dolore ipsum deserunt, quis accusamus reiciendis at porro adipisci quos optio repellendus, sapiente voluptatum incidunt suscipit atque. Esse?</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Oops, Core Java</li>
+                            <li><span>Web Technology</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>SQL</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design trainer at EL Institute</li>
+                            <li><span>2019 - 2021</span><br>Team Lead at StarAPP LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>B.Sc Computer in Vysya College, Salem.</li>
+                            <li><span>2019</span><br>HSC in Srii Jothi Hr Sec School, Salem.</li>
+                            <li><span>2017</span><br>SSLC in Srii Jothi Hr Sec School, Salem.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------Project--------------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime molestiae quos repellat, provident vitae neque. Dolore alias, impedit quaerat enim sed eveniet unde laudantium tenetur error delectus quis sunt?</p>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Technology</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime molestiae quos repellat, provident vitae neque. Dolore alias, impedit quaerat enim sed eveniet unde laudantium tenetur error delectus quis sunt?</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>SQL</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime molestiae quos repellat, provident vitae neque. Dolore alias, impedit quaerat enim sed eveniet unde laudantium tenetur error delectus quis sunt?</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------Contact--------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>karthikumar8402@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9159447517</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/karthik_kumar_8402/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/karthik-k-53a78026a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Karthik Resume.pdf" class="btn" download>Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input id="name-input-box" type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+        for(let tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(let tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        let sidemeu = document.getElementById("sidemenu");
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxA3hd5f8kK5jehRTP_RVTnc6EXtk3b5XeGhM5_JqBnkWCM7E8MrBwH2JRZ-f7DAyxyEw/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        try {
+        const response = await fetch(scriptURL, { method: 'POST', body: new FormData(form) });
+        if (response.ok) {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function() {
+                msg.innerHTML = "";
+            }, 1000);
+            form.reset();
+        } else {
+            throw new Error('Error occurred while submitting the form');
+        }
+        } catch (error) {
+            console.error('Error!', error.message);
+        }
+        });
+      </script>
+</body>
+>>>>>>> f1ffdae44d17bfb7998215baf6ba58261fe38785
 </html>
